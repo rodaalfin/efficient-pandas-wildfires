@@ -1,0 +1,8 @@
+*.csv
+*.sqlite
+.venv/
+__pycache__/
+*.sqlite
+audit_memory_csv.py
+audit_memory_csv
+optimized_large_sql.py
