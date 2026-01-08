@@ -6,3 +6,4 @@ __pycache__/
 audit_memory_csv.py
 audit_memory_csv
 optimized_large_sql.py
+push.bat

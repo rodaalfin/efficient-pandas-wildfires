@@ -26,29 +26,35 @@ To replicate this project on your local machine:
 
 Clone the repository:
 
+<pre>
 Bash
-
 git clone https://github.com/rodaalfin/efficient-pandas-wildfires.git
 cd efficient-pandas-wildfires
+</pre>
+
 Setup Environment:
-
+<pre>
 Bash
-
 python -m venv .venv
+
 # Activate on Windows:
 .venv\Scripts\activate
 pip install -r requirements.txt
+</pre>
+
 Data Preparation: Ensure the original SQLite database (FPA_FOD_20170508.sqlite) is in the root folder, then run the optimization script to generate the high-performance Parquet file:
 
+<pre>
 Bash
-
 python process_wildfires.py
+</pre>
+
 Run Analysis & Visualization:
-
+<pre>
 Bash
-
 python analyze_wildfires.py
 python visualize_wildfires.py
+</pre>
 
 ---
 
