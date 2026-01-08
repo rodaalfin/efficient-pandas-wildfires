@@ -1,3 +1,4 @@
+![Wildfire Causes](fire_causes_distribution.png)
 # US Wildfires Analysis: Data Optimization & Memory Management 📉🔥
 
 ## 🇺🇸 English Version
